@@ -46,18 +46,12 @@ img {
     margin: 0px auto;
     width: 100%;
     flex-wrap: wrap;
-    border-right: 2px solid black;
 }
 
 aside {
     width: 100%;
     margin-top: 62px;
     height: 248px;
-    border-bottom: 2px solid black;
-}
-
-.bordas {
-    border-bottom: 2px solid black;
 }
 
 h1, h2, h3 {
@@ -92,10 +86,6 @@ article {
 
 .aumentar {
     height: 356px;
-}
-
-.borda {
-    border-left: 2px solid black;
 }
 
 #section-foto {
@@ -137,17 +127,21 @@ ol, ul {
 
 #tabela {
     position: absolute;
-    top: 385px;
+    top: 392px;
     right: 65px;
 }
 
 #titulo-tabela {
     position: absolute;
-    top: 342px;
+    top: 338px;
     right: 215px;
 }
 
 td {
     padding: 5px;
-    border: 1px solid black;
+}
+
+.espaço3 {
+    padding-top: 24px;
+    padding-bottom: 10px;
 }

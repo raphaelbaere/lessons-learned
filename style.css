@@ -42,11 +42,11 @@ img {
 }
 
 #organizador {
-display: flex;
-margin: 0px auto;
-width: 100%;
-flex-wrap: wrap;
-border-right: 2px solid black;
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    flex-wrap: wrap;
+    border-right: 2px solid black;
 }
 
 aside {

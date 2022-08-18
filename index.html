@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,27 @@
     <title>Raphael Baere Lessons Learned</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Meu caminho na Trybe até aqui!</h1>
     </header>
     <main>
-            <section>
-                <h1>Esse sou eu!</h1>
-                <img id="minha_foto" src="assets/eu.jpeg" alt="Minha foto!">
-            </section>
-            <article>
-            <section>
-                <h2>Lições que eu aprendí</h2>
+        <div id="organizador">
+            <article id="articledoinicio" class="lado-esquerdo bordas">
+                <section id="section-foto">
+                    <h1 id="titulo-section-foto">Esse sou eu!</h1>
+                    <img id="minha_foto" src="assets/eu.jpeg" alt="Minha foto!">
+                </section>
+                <h2 class="espaço">Como foi o meu processo de aprendizado na Trybe?</h2>
+                <p>Todo o processo de aprendizado, seja pelas aulas ao vivo ou até mesmo pela plataforma com as aulas
+                    gravadas e textos, é de um conteúdo muito bem produzido e você consegue sentir que é feito com amor.
+                    Então, até o momento, nada me incomodou.
+                    O time da <a target="_blank" href="https://www.betrybe.com/">Trybe</a> parece bem esforçado em nos
+                    manter na linha e sempre a postos para nos ajudar..</p>
+            </article>
+            <section id="section2" class="margin-left-section aumentar">
+                <h2 class="espaço2 diminuir-width">Afinal, quais lições eu aprendí</h2>
                 <ol id="licoes_aprendidas">
                     <li>Comandos do Terminal</li>
                     <li>Git</li>
@@ -31,34 +41,76 @@
                     <li>Autogestão</li>
                     <li>Aprender a aprender</li>
                 </ol>
-            </article>
             </section>
-            <section>
-                <h2>Lições que eu desejo aprender</h3>
-                <ul id="licoes_a_aprender">
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>React</li>
-                    <li>Express.js</li>
-                    <li>NoSQL</li>
-                    <li>Algoritmos e estrutura de dados</li>
-                    <li>Node</li>
-                    <li>ORM</li>
-                    <li>Aprender mais sobre como aprender</li>
-                    <li>Aprender mais sobre Autoliderança</li>
-                </ul>
+            <section id="section1" class="aumentar borda">
+                <h2 class="espaço2 padding"> E quais lições eu desejo aprender</h3>
+                    <ul id="licoes_a_aprender">
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>React</li>
+                        <li>Express.js</li>
+                        <li>NoSQL</li>
+                        <li>Algoritmos e estrutura de dados</li>
+                        <li>Node</li>
+                        <li>ORM</li>
+                        <li>Aprender mais sobre como aprender</li>
+                        <li>Aprender mais sobre Autoliderança</li>
+                    </ul>
+                    <h2 id="titulo-tabela">Hobbies</h2>
+                    <table id="tabela">
+                        <tr>
+                            <th>Hobbie</th>
+                            <th>Exemplo</th>
+                            <th>Tempo no dia</th>
+                        </tr>
+                        <tr>
+                            <td>Jogar</td>
+                            <td>LoL</td>
+                            <td>Quando estou livre</td>
+                        </tr>
+                        <tr>
+                            <td>Ler</td>
+                            <td>Crônicas Saxônicas</td>
+                            <td>Quando estou livre</td>
+                        </tr>
+                        <tr>
+                            <td>Malhar</td>
+                            <td>Peito</td>
+                            <td>Manhã</td>
+                        </tr>
+                        <tr>
+                            <td>Séries</td>
+                            <td>GOT</td>
+                            <td>Quando estou livre</td>
+                        </tr>
+                        <tr>
+                            <td>Tiktok</td>
+                            <td>Memes?</td>
+                            <td>Quando estou livre</td>
+                        </tr>
+                        <tr>
+                            <td>Youtube</td>
+                            <td>Brasão de armas</td>
+                            <td>Almoço e janta</td>
+                        </tr>
+                        <tr>
+                            <td>Codar</td>
+                            <td>Projetos Pessoais</td>
+                            <td>Tempo livre</td>
+                        </tr>
+                    </table>
             </section>
-            <section>
-                <h2>Onde eu aprendí?</h3>
-                <p>Na<a target="_blank" href="https://www.betrybe.com/">Trybe</a></p>
-            </section>
-            <section>
-            </section>
-            <aside>
-                <h2>Sobre mim</h3>
-                <p>Meu nome é Raphael Baere de Sá Oliveira, tenho 21 anos, nascido, criado e morando atualmente no Rio De Janeiro!</p>
-            </aside>     
+        </div>
+        <div id="organizacao2">
+            <aside class="lado-direito espaço">
+                <h2 class="espaço diminuir-width">Sobre mim</h3>
+                    <p class="diminuir-width">Meu nome é Raphael Baere de Sá Oliveira, tenho 21 anos, nascido, criado e
+                        morando atualmente no Rio De Janeiro!</p>
+                    <img id="logo-trybe" src="assets/trybe_logo.png" alt="Logo da Trybe">
+            </aside>
+        </div>
     </main>
-    <footer id="rodape"></footer>    
+    <footer id="rodape"></footer>
 </body>
+
 </html>
